@@ -2,9 +2,9 @@ import React from "react";
 import { Text } from "react-native";
 import PagerView from "react-native-pager-view";
 import { SafeAreaView } from "react-native-safe-area-context";
-import "../global.css";
+import "../../global.css";
 
-const MyPager = () => {
+const Home = () => {
   return (
     <PagerView style={{ flex: 1 }} initialPage={0}>
       <SafeAreaView key="1">
@@ -17,4 +17,4 @@ const MyPager = () => {
   );
 };
 
-export default MyPager;
+export default Home;
